@@ -94,9 +94,9 @@ public class CustomHashMap<K, V> {
 	}
 
 	private int hash(Object key) {
-		// TODO Auto-generated method stub
 		return key.hashCode();
 	}
+	
 
 	class KeyValuePair<K, V> {
 		K key;
